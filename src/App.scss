@@ -1,0 +1,24 @@
+$color-background-body: #0a0a0a;
+$color-background-container: rgb(229, 229, 229);
+$color-background-nav: rgb(71, 71, 71);
+$color-background-img-nav: rgb(15, 15, 15);
+$color-text-nav: #eee;
+$color-text: #111;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $color-background-body;;
+}
+
+@import './componentes/banner/banner.scss';
+@import './componentes/nav/Nav.scss';
+@import './componentes/carrusel/Carrusel.scss';
+@import './scss-partials/galleryFotos.scss';
+@import './scss-partials/btn-back';
+
+@import './componentes/paginas/inicio/inicio.scss';
+@import './componentes/paginas/talleres/talleres.scss';

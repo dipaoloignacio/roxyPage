@@ -1,0 +1,15 @@
+@mixin btn-back {
+    height: 35px;
+    width: 100px;
+    margin-left: 3%;
+    margin-top: 10px;
+    background-color: #333;
+    border: solid 1px white;
+    color: #eee;
+    &:hover{
+        background-color: #0dcaf0;
+    }
+    i {
+        font-size: 20px;
+    }
+}

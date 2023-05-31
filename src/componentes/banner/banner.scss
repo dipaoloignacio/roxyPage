@@ -1,0 +1,17 @@
+.container-img-banner {
+    position: relative;
+    min-width: 100%;
+    background-color: rgb(240, 240, 240);
+
+    #img-logo {
+        display:block;
+        margin: auto;
+        max-height: 300px;
+    }
+
+    ul{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

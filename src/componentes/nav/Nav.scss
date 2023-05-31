@@ -1,0 +1,49 @@
+.boton-nav {
+    position: relative;
+    height: 40px;
+    line-height: 42px;
+    border: none;
+    background: $color-background-nav;
+
+    a{
+        text-decoration: none;
+        padding: 0 20px;
+        color: $color-text;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    &:hover {
+        background: transparent;
+        box-shadow: none;
+    }
+
+    &:before,
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 2px;
+        width: 0;
+        background: $color-text-nav;
+        transition: 200ms ease all;
+    }
+
+    &:after {
+        right: inherit;
+        top: inherit;
+        left: 0;
+        bottom: 0;
+    }
+
+    &:hover:before,
+    &:hover:after {
+        width: 100%;
+        transition: 400ms ease all;
+    }
+}
+
+.bg-propio {
+    background-color: $color-background-nav;
+}
