@@ -19,6 +19,11 @@ body {
 @import './componentes/carrusel/Carrusel.scss';
 @import './scss-partials/galleryFotos.scss';
 @import './scss-partials/btn-back';
-
+@import './componentes/footer/footer.scss';
 @import './componentes/paginas/inicio/inicio.scss';
 @import './componentes/paginas/talleres/talleres.scss';
+@import './componentes/paginas/intervenciones/intervenciones.scss';
+@import './componentes/paginas/espectaculos/espectaculos';
+@import './componentes/paginas/espectaculos/lambe-lambe/lambe-lambe.scss';
+@import './componentes/paginas/espectaculos/marionetas/marionetas';
+@import './componentes/paginas/compania/compania.scss';

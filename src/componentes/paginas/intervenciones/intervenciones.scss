@@ -1,0 +1,44 @@
+.container-inter {
+    background-color: $color-background-container;
+
+    .banner-inter {
+        justify-content: center;
+        background-color: #111;
+
+        img {
+            max-height: 400px;
+        }
+    }
+
+    .container-gallery-interneviones {
+        max-width: 80%;
+        margin: 50px auto;
+    }
+
+    .video-inter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        background-color: #333;
+
+        iframe {
+            width: 60%;
+            height: 500px;
+            padding: 5px;
+            border: solid 1px #eee;
+        }
+    }
+
+    .division {
+        width: 80%;
+        height: 1px;
+        margin: 100px auto;
+        background-color: #111;
+    }
+
+    .libro {
+        margin-left: 20px;
+    }
+}

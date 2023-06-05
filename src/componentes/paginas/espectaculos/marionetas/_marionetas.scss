@@ -1,0 +1,109 @@
+.container-marionetas {
+    @extend .lambe-lambe;
+    min-height: 800px;
+
+    h2 {
+        display: inline-block;
+        border-bottom: solid 1px #111;
+        margin-left: 10%;
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+
+    .images-marionetas {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 100%;
+        gap: 5px;
+        margin-top: 40px;
+        margin: auto;
+        justify-content: space-evenly;
+
+        .card-marionetas {
+            max-width: 25%;
+            color: white;
+            margin-bottom: 30px;
+            border: solid 1px #222;
+            padding: 2px;
+
+            .btn {
+                font-size: 1rem;
+                margin: 5px 0;
+            }
+
+            a {
+                text-decoration: none;
+
+                .btn:hover {
+                    color: black !important;
+                }
+            }
+
+            &:hover {
+                transition: 0.3s;
+                transform: scale(1.02);
+                box-shadow: 5px 5px 3px 2px #999;
+            }
+        }
+    }
+}
+
+//Estilos pagina espectaculos/marionetas/enderas
+.pagina-enderas {
+    text-align: center;
+
+    a {
+        @include btn-back;
+    }
+
+    h1 {
+        margin-top: 50px;
+    }
+
+    p {
+        max-width: 50%;
+        margin: 20px auto;
+
+    }
+
+    .lista-creditos {
+        color: #eee;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    .trailer {
+        h3 {
+            display: inline-block;
+            color: #eee;
+            margin-top: 30px;
+            padding: 5px;
+            border-bottom: solid 1px #eee;
+        }
+    }
+
+    iframe {
+        border: solid 1px #eee;
+        padding: 5px;
+        width: 50%;
+        height: 400px;
+        margin: 50px auto;
+    }
+
+    h4 {
+        display: inline-block;
+        margin-top: 70px;
+        padding-bottom: 5px;
+        color: #eee;
+        border-bottom: solid 1px #eee;
+    }
+
+    .gallery {
+        margin-top: 50px;
+    }
+}

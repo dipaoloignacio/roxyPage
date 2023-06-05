@@ -1,0 +1,70 @@
+.lambe-lambe {
+    background-color: $color-background-container;
+    color: #222;
+
+    .btn-back {
+        @include btn-back;
+    }
+
+    h2 {
+        display: inline-block;
+        text-align: center;
+        color: #111;
+        border-bottom: solid 1px #111;
+    }
+
+    a {
+        width: 100px;
+    }
+
+
+    article {
+        border-top: 1px solid #222;
+        margin-bottom: 30px;
+        padding: 20px;
+
+        h3 {
+            text-align: center;
+            padding: 30px;
+        }
+    }
+
+    @mixin obras-lambe {
+        p {
+            max-width: 60%;
+            margin: auto;
+            margin-bottom: 50px;
+
+        }
+
+        a {
+            width: 35%;
+            margin-left: 32.5%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .bellos-y-bestias {
+        @include obras-lambe();
+    }
+
+    .carrusel-del-viejo-matias {
+        @include obras-lambe();
+    }
+
+    .milonga {
+        @include obras-lambe();
+    }
+}
+
+//Se comparten los estilos de cada obra de Lambe Lambe ruta: pages/espectaculos-pages/lambe-lame-pages.
+.pagina-lambe {
+    .btn {
+        @include btn-back();
+    }
+
+    img {
+        width: 50%;
+        margin-left: 25%;
+    }
+}

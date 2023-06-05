@@ -22,19 +22,19 @@ export const Nav = () => {
                         </li>
                         <li className="nav-item ms-1">
                             <button className="boton-nav"><NavLink className="text-light" aria-current="page"
-                                href="tourDates.html">intervenciones</NavLink></button>
+                                to="/intervenciones">intervenciones</NavLink></button>
                         </li>
                         <li className="nav-item ms-1">
                             <button className="boton-nav"><NavLink className="text-light" aria-current="page"
-                                href="espectaculos-pages/shows.html">espectáculos</NavLink></button>
+                                to="/espectaculos">espectáculos</NavLink></button>
                         </li>
                         <li className="nav-item ms-1">
                             <button className="boton-nav"><NavLink className="text-light" aria-current="page"
-                                href="company.html">compañía</NavLink></button>
+                                to="/compania">compañía</NavLink></button>
                         </li>
                         <li className="nav-item ms-1">
                             <button className="boton-nav"><NavLink className="text-light" aria-current="page"
-                                href="contact.html">contacto</NavLink></button>
+                                to="/contacto">contacto</NavLink></button>
                         </li>
                     </ul>
 

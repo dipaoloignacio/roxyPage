@@ -1,5 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+
+import imgCarrusel from '../../../imagenes/talleres/carrusel-taller.jpg'
+
 import imgMiniatura1 from '../../../imagenes/talleres/minuaturas/0001.jpg'
 import imgMiniatura2 from '../../../imagenes/talleres/minuaturas/1.jpg'
 import imgMiniatura3 from '../../../imagenes/talleres/minuaturas/taller01-01.jpg'
@@ -22,8 +25,15 @@ import imgGaleria14 from '../../../imagenes/talleres/galeria/taller-gallery-14.j
 export const Talleres = () => {
     return (
         <main class="container-taller">
+            
+            <div class="banner-taller d-flex">
+                <div class="img-taller ">
+                    <img src={imgCarrusel} class="img-fluid " alt="..." />
+                </div>
+            </div>
 
             <h1>Nuestros talleres</h1>
+
             <div class="images-taller">
 
                 <NavLink to="/taller-desenredando-los-hilos" class="foto-taller">
@@ -32,13 +42,13 @@ export const Talleres = () => {
                     <p class="btn-ver-talleres">Click para ver mas</p>
                 </NavLink>
 
-                <NavLink href="/taller-inmercion-mundo-marionetas" class="foto-taller">
+                <NavLink to="/taller-inmercion-mundo-marionetas" class="foto-taller">
                     <img src={imgMiniatura1} class="img-fluid" alt="imagen taller de marionetas" />
                     <button class="btn btn-info text-light">Ver mas</button>
                     <p class="btn-ver-talleres">Click para ver mas</p>
                 </NavLink>
 
-                <NavLink href="/taller-delLibro-aLaEscena" class="foto-taller">
+                <NavLink to="/taller-delLibro-aLaEscena" class="foto-taller">
                     <img src={imgMiniatura2} class="img-fluid" alt="imagen taller de marionetas" />
                     <button class="btn btn-info text-light">Ver mas</button>
                     <p class="btn-ver-talleres">Click para ver mas</p>

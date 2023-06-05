@@ -1,0 +1,70 @@
+.container-company {
+    background-color: $color-background-container;
+    .text-company{
+        max-width: 70%;
+        margin: auto;
+        padding-top: 20px;
+        color: $color-text;
+        h2{
+            display: inline-block;
+            font-family: 'Secular One', sans-serif;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+            border-bottom: solid 1px $color-text;
+            text-align: center;
+        }
+        p{
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+    }
+
+    .logo-movil {
+        background: $color-background-container;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        margin:50px 25%;
+        width: 50%;
+        height: 270px;
+        .box {
+            border-radius: 20px;
+            width: 70px;
+            height: 240px;
+            animation: anime 4s cubic-bezier(0.16, 1, 0.3, 1) 1s infinite alternate;
+        }
+    }
+
+    @keyframes anime {
+        0% {
+            width: 70px;
+            height: 240px;
+        }
+
+        25% {
+            width: 70px;
+            height: 240px;
+        }
+
+        50% {
+            width: 70px;
+            height: 240px;
+        }
+
+        100% {
+            width: 400px;
+            height: 240px;
+        }
+    }
+
+    .contactarme{
+        max-width: 40%;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        color: $color-text;
+    }
+
+}
