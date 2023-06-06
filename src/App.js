@@ -17,6 +17,7 @@ import { Borondongo } from './componentes/paginas/espectaculos/marionetas/borond
 import { Mimama } from './componentes/paginas/espectaculos/marionetas/mimamemima/Mimama';
 import { LambeLambe } from './componentes/paginas/espectaculos/lambe-lambe/Lambe-lambe';
 import { Compania } from './componentes/paginas/compania/Compania';
+import { Contacto } from './componentes/paginas/contacto/Contacto';
 import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path='/borondongo' element={<Borondongo />} />
         <Route path='/espectaculos-lambe-lambe' element={<LambeLambe />} />
         <Route path='/compania' element={<Compania />} />
+        <Route path='/contacto' element={<Contacto />} />
       </Routes>
       <Footer />
     </BrowserRouter>
