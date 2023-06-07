@@ -5,6 +5,7 @@ import { faFacebookF, faYoutube, faInstagram, faWhatsapp } from '@fortawesome/fr
 import { faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 import img1 from '../../../imagenes/logo_mobile.png'
+import { NavLink } from 'react-router-dom'
 
 export const Compania = () => {
     return (
@@ -60,11 +61,11 @@ export const Compania = () => {
                 </li>
                 <li class="icon envelope">
                     <span class="nombre-red">Mensaje</span>
-                    <a href="../pages/contact.html" target="_blank">
+                    <NavLink to="/contacto" target="_blank">
                         <span>
                         <FontAwesomeIcon icon={faEnvelope} />
                         </span>
-                        </a>
+                        </NavLink>
                 </li>
             </ul>
                 <p>Mail: roximarionetas@gmail.com</p>

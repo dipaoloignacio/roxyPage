@@ -1,0 +1,384 @@
+/* -----MEDIA QUERY----- */
+@media screen and (min-width: 1918px) {
+    header {
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    min-height: 500px !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    body {
+
+        //querys Index----
+        .container-index {
+            section {
+                p {
+                    font-size: 20px;
+                }
+
+                h1 {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        // Querys TALLERES-----
+        .container-taller {
+            .video-taller {
+                padding-top: 80px;
+
+                iframe {
+                    width: 60%;
+                    height: 300px;
+                    margin-left: 20%;
+
+                }
+            }
+
+            .images-taller {
+                gap: 50px;
+                margin-bottom: 0;
+
+                .foto-taller {
+                    min-width: 25%;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+        .taller3 {
+            .btn {
+                width: 70px;
+            }
+
+            img {
+                width: 70%;
+                margin-left: 15%;
+            }
+        }
+
+        //querys ESPECTACULOS -----
+        .videos {
+            .lambe {
+                .text-espect {
+                    font-size: 1rem;
+                }
+            }
+
+            .marioneta {
+                .text-espect {
+                    font-size: 1rem;
+                }
+            }
+
+            .video-espectaculos {
+                min-width: 90%;
+                max-height: 300px;
+            }
+        }
+
+        //url espectaculos/lambelambe/obras/milonga y viejo matias.
+        .pagina-lambe {
+            .btn {
+                width: 70px;
+            }
+
+            img {
+                width: 70%;
+                margin-left: 15%;
+            }
+        }
+
+        .lambe-lambe {
+            .milonga {
+                p {
+                    min-width: 80%;
+                }
+
+                a {
+                    min-width: 70%;
+                    margin-left: 15%;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .carrusel-del-viejo-matias {
+                p {
+                    min-width: 80%;
+                }
+
+                a {
+                    min-width: 70%;
+                    margin-left: 15%;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        // url espectaculos/marionetas/marionetas.
+        .container-marionetas {
+            .images-marionetas {
+                .card-marionetas {
+                    min-width: 49%;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+
+        //querys Index----
+        .container-index {
+            h1 {
+                font-size: 25px;
+            }
+
+            section p {
+                font-size: 15px;
+            }
+        }
+
+        // Querys TALLERES-----
+        .container-taller {
+            .video-taller {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                height: 500px;
+
+                iframe {
+                    width: 100%;
+                    height: 400px;
+                    margin-left: 0;
+                }
+            }
+
+            .images-taller {
+                width: 100%;
+
+                a {
+                    min-width: 45% !important;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+
+
+
+        .taller3 {
+            .btn {
+                width: 50px;
+            }
+
+            img {
+                width: 80%;
+                margin-left: 10%;
+            }
+        }
+
+        //intervenciones querys.
+        .book {
+            transform: scale(0.95);
+        }
+
+        //querys ESPECTACULOS -----
+        .videos {
+            background-image: none !important;
+
+            .videos-section1 {
+                flex-direction: column;
+                justify-content: space-around;
+
+                .lambe {
+                    min-width: 80%;
+                    min-height: 300px;
+                    margin: 10px;
+                    align-self: center;
+                    border-radius: 0px !important;
+
+                    .btn1 {
+                        font-size: 1rem !important;
+                    }
+                }
+
+                .marioneta {
+                    min-width: 80%;
+
+                    .btn2 {
+                        font-size: 1rem !important;
+                    }
+                }
+
+            }
+
+            .videos-section2 {
+                flex-direction: column;
+                align-items: center;
+
+                .video-atelier {
+                    min-width: 80%;
+                }
+
+                .video-lambe {
+                    min-width: 80%;
+                }
+            }
+
+        }
+
+        // url lambe-lambe-pages/obras-lambe-lambe/milonga y viejo matias.
+        .pagina-lambe {
+            .btn {
+                width: 50px;
+            }
+
+            img {
+                width: 80%;
+                margin-left: 10%;
+            }
+        }
+
+        // url espectaculos/marionetas/marionetas.
+
+
+        // url marioneta-pages/obras-marionetas/enderas
+
+
+        //Querys company---
+        .container-company {
+
+            .logo-movil {
+                min-width: 70%;
+                margin: auto;
+            }
+
+            .contactarme {
+                min-width: 70%;
+            }
+        }
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    body {
+        header {
+            .carousel-item {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        #img-logo {
+            min-height: 200px;
+        }
+
+        // Querys TALLERES-----
+        .container-taller {
+            .video-taller {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                height: 300px;
+
+                iframe {
+                    width: 100%;
+                    height: 200px;
+                    margin-left: 0;
+                }
+            }
+
+            .images-taller {
+                min-width: 100%;
+
+                .foto-taller {
+                    min-width: 80% !important;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+        //intervenciones querys.
+        .container-inter {
+            .container-gallery-interneviones {
+                .gallery {
+                    display: flex;
+                    flex-direction: column;
+                    min-width: 80%;
+                }
+            }
+
+            .book {
+                transform: scale(0.8);
+            }
+        }
+
+        //query Espectaculos
+        .container-espectaculos {
+            .videos {
+                .videos-section1 {
+                    width: 100%;
+                    padding: 0;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        // url espectaculos/marionetas/marionetas.
+        .container-marionetas {
+            .images-marionetas {
+                .card-marionetas {
+                    min-width: 70%;
+                }
+            }
+        }
+
+        .pagina-enderas {
+            iframe {
+                min-width: 90%;
+            }
+        }
+
+        //Querys company---
+        .container-company {
+
+            .logo-movil {
+                min-width: 90%;
+                margin: auto;
+            }
+
+            .contactarme {
+                min-width: 70%;
+            }
+        }
+
+        //querys contacto
+        .container-contact {
+            .contacto {
+                .form {
+                    min-width: 100%;
+                }
+            }
+        }
+    }
+
+}

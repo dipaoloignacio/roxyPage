@@ -8,30 +8,30 @@ import imgBackground from '../../../imagenes/espectaculos/logo-vertical-sinLetra
 export const Espectaculos = () => {
     return (
         <div class="container-espectaculos">
-            <h1>Espectáculos</h1>
+            <h1 >Espectáculos</h1>
 
             <div class="videos" style={{ backgroundImage: `url(${imgBackground})` }}>
                 <div class="videos-section1 d-flex">
 
-                    <div class="marioneta position-relative border-info">
+                    <div class="marioneta position-relative">
                         <NavLink to="/espectaculos-marionetas">
                             <video class="video-espectaculos" autoPlay loop muted>
                                 <source src={vid2} type="video/mp4" alt="Video de Rosana Lopez con su marioneta en el teatro." />
                             </video>
                             <br />
+                            <br />
                             <p>-Click ver mas.</p>
-                            <button class="btn2 btn btn-info text-light">Ver mas </button>
                         </NavLink>
                     </div>
 
-                    <div class="lambe border-info">
+                    <div class="lambe">
                         <NavLink to="/espectaculos-lambe-lambe">
                             <video class="video-espectaculos" frameborder="0" autoPlay loop muted>
                                 <source src={vid1} type="video/mp4" alt="Video de Rosana Lopez haciendo teatro Lambe Lambe."/>
                             </video>
                             <br />
+                            <br />
                             <p>Click ver mas.</p>
-                            <button class="btn1 btn btn-info text-light">Ver mas</button>
                         </NavLink>
                     </div>
                 </div>

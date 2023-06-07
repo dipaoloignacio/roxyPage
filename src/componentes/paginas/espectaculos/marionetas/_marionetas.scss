@@ -25,6 +25,7 @@
             margin-bottom: 30px;
             border: solid 1px #222;
             padding: 2px;
+            transition: 0.3s;
 
             .btn {
                 font-size: 1rem;
@@ -40,7 +41,6 @@
             }
 
             &:hover {
-                transition: 0.3s;
                 transform: scale(1.02);
                 box-shadow: 5px 5px 3px 2px #999;
             }

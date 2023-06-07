@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faYoutube, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons'
@@ -38,11 +38,11 @@ export const Footer = () => {
                 </li>
                 <li class="icon envelope">
                     <span class="nombre-red">Mensaje</span>
-                    <a href="../pages/contact.html" target="_blank">
+                    <NavLink to="/contacto" target="_blank">
                         <span>
                             <FontAwesomeIcon icon={faEnvelope} />
                         </span>
-                    </a>
+                    </NavLink>
                 </li>
             </ul>
         </footer>

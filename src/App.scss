@@ -13,7 +13,7 @@ $color-text: #111;
 body {
     background-color: $color-background-body;;
 }
-
+@import './scss-partials/mediaQuerys';
 @import './componentes/banner/banner.scss';
 @import './componentes/nav/Nav.scss';
 @import './componentes/carrusel/Carrusel.scss';
