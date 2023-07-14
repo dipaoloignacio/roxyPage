@@ -1,8 +1,10 @@
-.carousel-item{
-    overflow: hidden;
-    max-height: 400px;
-    background-color: $color-background-body;
-    img{
-        width: 70%;
+.carousel-inner{
+    
+    .carousel-item{
+        background-color: $color-background-body;
+        img{
+            max-height: 450px ;
+            margin: auto;
+        }
     }
 }

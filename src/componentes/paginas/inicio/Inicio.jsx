@@ -1,13 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Carrusel } from '../../carrusel/Carrusel'
+
+import imgCarrusel1 from '../../../imagenes/carrusel/carrusel-roxy.jpg'
+import imgCarrusel2 from '../../../imagenes/carrusel/carrusel-pepe.jpg'
+import imgCarrusel3 from '../../../imagenes/carrusel/corrusel-sirena.jpg'
+
+let carrusel = [
+    {
+        id: 1,
+        img: imgCarrusel1,
+    },
+    {
+        id: 2,
+        img: imgCarrusel2,
+    },
+    {
+        id: 3,
+        img: imgCarrusel3,
+    },
+]
+
 export const Inicio = () => {
+    const [first, setfirst] = useState(carrusel)
+
     return (
         <div>
-            <Carrusel />
+            <Carrusel fotos={first} />
+
             <main className="container-index">
 
                 <section className="title-index">
-                    <h1 className="">Inicio</h1>
+                    <h1>Inicio</h1>
                     <p>
                         La compañía nace en el año 2012 con la idea de experimentar diferentes
                         posibilidades en el universo de las formas animadas. Fusiona el lenguaje de las Artes plásticas con

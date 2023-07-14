@@ -1,6 +1,7 @@
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
+
 import { Banner } from './componentes/banner/Banner';
 import { Nav } from './componentes/nav/Nav';
 import { Footer } from './componentes/footer/Footer';
@@ -16,8 +17,10 @@ import { Enderas } from './componentes/paginas/espectaculos/marionetas/enderas-m
 import { Borondongo } from './componentes/paginas/espectaculos/marionetas/borondongo/Borondongo';
 import { Mimama } from './componentes/paginas/espectaculos/marionetas/mimamemima/Mimama';
 import { LambeLambe } from './componentes/paginas/espectaculos/lambe-lambe/Lambe-lambe';
+import { Agenda } from './componentes/paginas/agenda/Agenda';
 import { Compania } from './componentes/paginas/compania/Compania';
 import { Contacto } from './componentes/paginas/contacto/Contacto';
+
 import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -38,6 +41,7 @@ function App() {
         <Route path='/mimamamemima' element={<Mimama />} />
         <Route path='/borondongo' element={<Borondongo />} />
         <Route path='/espectaculos-lambe-lambe' element={<LambeLambe />} />
+        <Route path='/agenda' element={<Agenda />} />
         <Route path='/compania' element={<Compania />} />
         <Route path='/contacto' element={<Contacto />} />
       </Routes>
